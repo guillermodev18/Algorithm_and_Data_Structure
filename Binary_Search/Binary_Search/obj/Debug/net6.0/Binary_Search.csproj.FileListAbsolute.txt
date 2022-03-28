@@ -7,9 +7,9 @@ C:\Users\Guillermo\Desktop\Algorithim & Data Structure\Binary_Search\Binary_Sear
 C:\Users\Guillermo\Desktop\Algorithim & Data Structure\Binary_Search\Binary_Search\bin\Debug\net6.0\Binary_Search.deps.json
 C:\Users\Guillermo\Desktop\Algorithim & Data Structure\Binary_Search\Binary_Search\bin\Debug\net6.0\Binary_Search.runtimeconfig.json
 C:\Users\Guillermo\Desktop\Algorithim & Data Structure\Binary_Search\Binary_Search\bin\Debug\net6.0\Binary_Search.dll
-C:\Users\Guillermo\Desktop\Algorithim & Data Structure\Binary_Search\Binary_Search\bin\Debug\net6.0\ref\Binary_Search.dll
 C:\Users\Guillermo\Desktop\Algorithim & Data Structure\Binary_Search\Binary_Search\bin\Debug\net6.0\Binary_Search.pdb
 C:\Users\Guillermo\Desktop\Algorithim & Data Structure\Binary_Search\Binary_Search\obj\Debug\net6.0\Binary_Search.dll
 C:\Users\Guillermo\Desktop\Algorithim & Data Structure\Binary_Search\Binary_Search\obj\Debug\net6.0\ref\Binary_Search.dll
 C:\Users\Guillermo\Desktop\Algorithim & Data Structure\Binary_Search\Binary_Search\obj\Debug\net6.0\Binary_Search.pdb
 C:\Users\Guillermo\Desktop\Algorithim & Data Structure\Binary_Search\Binary_Search\obj\Debug\net6.0\Binary_Search.genruntimeconfig.cache
+C:\Users\Guillermo\Desktop\Algorithim & Data Structure\Binary_Search\Binary_Search\obj\Debug\net6.0\refint\Binary_Search.dll

@@ -8,9 +8,9 @@ public class Program{
         int[] arr = { 2, 3, 4, 13, 25, 37, 40, 48 };
 
         int high = arr.Length;
-        int number = 10;
+        int number = 37;
 
-         int result = BinarySearch(arr, 0, high - 1, number);
+        int result = BinarySearch(arr , number, 0, high - 1);
 
     }
 
@@ -23,7 +23,7 @@ public class Program{
             // If the element is present at the
             // middle itself
             if(list[mid] == number){
-                Console.WriteLine("Number found");
+                // Console.WriteLine("Number found");
                 return mid;
             }
 
