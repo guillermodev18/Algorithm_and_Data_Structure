@@ -1,20 +1,10 @@
-﻿
-using System;
+﻿using System;
 
 public class Program{
 
-    public static void Main(string[] args){
-
-        int[] arr = { 2, 3, 4, 13, 25, 37, 40, 48 };
-
-        int high = arr.Length;
-        int number = 37;
-
-        int result = BinarySearch(arr , number, 0, high - 1);
-
-    }
-
-    static int BinarySearch(int[] list, int number, int low, int high){
+    // Returns index of number if it is present in
+    // arr[low..high], else return -1
+    public static int BinarySearch(int[] list, int low, int high, int number){
 
         if(high >= low){
 
@@ -22,8 +12,7 @@ public class Program{
 
             // If the element is present at the
             // middle itself
-            if(list[mid] == number){
-                // Console.WriteLine("Number found");
+            if(mid == number){
                 return mid;
             }
 
@@ -40,7 +29,23 @@ public class Program{
 
         // We reach here when element is not present
         // in array
-        Console.WriteLine("Number Not found");
         return -1;
     }
+
+    public static void Main(string[] args){
+
+
+        int[] array = { 2, 3, 4, 10, 40 };
+        int n = array.Length;
+        int x = 10;
+ 
+        int result = BinarySearch(array, 0, n - 1, x);
+ 
+        if (result == -1)
+            Console.WriteLine("Element not present");
+        else
+            Console.WriteLine("Element found at index "
+                              + result);   
+    }
+
 }
