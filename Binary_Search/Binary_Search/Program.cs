@@ -54,8 +54,17 @@ public class Program{
             }
 
             // If number greater , ignore left half
+             if (array[mid] < number)
+                low = mid + 1;
+
+             // If x is smaller, ignore right half
+            else
+                high = mid - 1;
         }
 
+        // if we reach here, then element was
+        // not present
+        return -1;
 
     }
 
