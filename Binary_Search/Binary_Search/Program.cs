@@ -68,6 +68,14 @@ public class Program{
 
     }
 
+    public static void ResultMessege(int result)
+    {
+        if (result == -1)
+            Console.WriteLine("Element not present");
+        else
+            Console.WriteLine("Element found at index "+ result);
+    }
+
 
     public static void Main(string[] args){
 
@@ -76,14 +84,12 @@ public class Program{
         int n = array.Length;
         int x = 1;
 
-        // 
+         
         int result = RecursiveBinarySearch(array, 0, n - 1, x);
- 
-        if (result == -1)
-            Console.WriteLine("Element not present");
-        else
-            Console.WriteLine("Element found at index "
-                              + result);   
+        ResultMessege(result);
+
+        result = IterativeBinarySearch(array, 3);
+        ResultMessege(result);
     }
 
 }
